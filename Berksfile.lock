@@ -1,0 +1,28 @@
+DEPENDENCIES
+  mongo
+    git: git@github.com:jacosta18/Chef_Mongod.git
+    revision: b4154b703cae0cf43f318382ec627267da78d71d
+  node
+    git: git@github.com:jacosta18/CHEF_nodejs.git
+    revision: 44507793493ff9dcdfd211253034687e9736662c
+
+GRAPH
+  apt (7.2.0)
+  ark (4.0.0)
+    build-essential (>= 0.0.0)
+    seven_zip (>= 0.0.0)
+  build-essential (8.2.1)
+    mingw (>= 1.1)
+    seven_zip (>= 0.0.0)
+  mingw (2.1.0)
+    seven_zip (>= 0.0.0)
+  mongo (0.1.0)
+  node (0.1.0)
+    apt (>= 0.0.0)
+    nodejs (~> 6.0.0)
+  nodejs (6.0.0)
+    ark (>= 2.0.2)
+    build-essential (>= 5.0)
+  seven_zip (3.1.1)
+    windows (>= 0.0.0)
+  windows (6.0.0)
